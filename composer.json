@@ -1,0 +1,25 @@
+{
+    "name": "septiadi/aes-crypt",
+    "description": "Package yang berisi encrypt, decrypt, JSON, list",
+    "require": {
+        "php": ">=7.4"
+    },
+    "keywords": ["AES", "encrypt", "decrypt"],
+    "type": "library",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Septiadi Rahmawan",
+            "email": "septiadirahmawan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Septiadi\\": "src/"
+        },
+        "files": [
+            "src/Crypt.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}
