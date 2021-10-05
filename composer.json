@@ -6,6 +6,7 @@
     },
     "keywords": ["bantuin", "septiadi", "encrypt", "decrypt", "list", "JSON", "provinsi", "kota", "kabupaten", "kecamatan", "kelurahan"],
     "type": "library",
+    "license": "WTFPL",
     "authors": [
         {
             "name": "Septiadi Rahmawan",
