@@ -1,12 +1,11 @@
 {
-    "name": "septiadi/aes-crypt",
+    "name": "septiadi/bantuin",
     "description": "Package yang berisi encrypt, decrypt, JSON, list",
     "require": {
         "php": ">=7.4"
     },
-    "keywords": ["AES", "encrypt", "decrypt"],
+    "keywords": ["bantuin", "septiadi", "encrypt", "decrypt", "list", "JSON", "provinsi", "kota", "kabupaten", "kecamatan", "kelurahan"],
     "type": "library",
-    "license": "WTFPL",
     "authors": [
         {
             "name": "Septiadi Rahmawan",
