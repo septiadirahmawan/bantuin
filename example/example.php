@@ -4,6 +4,7 @@ require '../vendor/autoload.php';
 
 use Septiadi\Bantuin\Crypt;
 use Septiadi\Bantuin\JSON;
+use Septiadi\Bantuin\Data;
 
 $secret_key = "rahasia";
 
@@ -16,4 +17,6 @@ echo "<br><br>";
 $a = ['a' => 123];
 $b = ['a' => 456];
 echo json_encode(JSON::diff($a, $b));
+echo "<br><br>";
+echo json_encode(Data::provinsi("barat"));
 ?>
